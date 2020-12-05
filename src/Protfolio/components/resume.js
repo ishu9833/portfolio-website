@@ -63,7 +63,7 @@ const Resume = () => {
                     </div>
                     <div className="resume_card_body">
                         <div className='resume_card_title'><h5>Computer Science Engineering</h5></div>
-                        <div className='resume_card_year'>University of the People (2021-2025)</div>
+                        <div className='resume_card_year'>University of the People (2020-Running)</div>
                         <p className='resume_card_description'>
                             I am currently admitted BSc in Computer Science and Engineering at University of the People
                            <p>CGPA (on the way) </p>
