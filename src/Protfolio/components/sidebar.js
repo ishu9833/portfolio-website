@@ -36,7 +36,7 @@ const SideBar = () => {
         >
             <img src={max} alt="avatar" className="rounded-circle image_custom" />
             <h3 className='name'><span>Arif</span> Ishtiaque</h3>
-            <div className="title bg-gray side_item">Fullstack web developer</div>
+            <div className="title bg-gray side_item">Front-end web developer</div>
             <a href={resume} download="resume.pdf">
                 <div className="cv side_item"><img src={tie} alt="resume" className='icon_small' /> download resume</div></a>
             <figure className='social_icons'>
