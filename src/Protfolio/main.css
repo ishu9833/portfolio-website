@@ -61,6 +61,8 @@ body {
     cursor: pointer;
 }
 
+
+
 .social_icon:hover {
     transform: scale(1.1);
     transition: linear;
@@ -106,6 +108,13 @@ body {
     height: 40px;
     font-size: 18px;
     padding-top: 6PX;
+    margin-bottom: 8px;
+}
+.link_item{
+    border-radius: 35px;
+    height: 40px;
+    font-size: 18px;
+    padding: 8px;
     margin-bottom: 8px;
 }
 
@@ -345,7 +354,7 @@ a:hover {
 }
 
 .project_name {
-    font-size: 17px;
+    font-size: 15px;
 }
 
 /* .project_image {
@@ -398,7 +407,7 @@ a:hover {
     border-radius: 20px;
     border: 1px solid #00F260;
     width: 100%;
-    height: 80%;
+    height: 70%;
 
 }
 

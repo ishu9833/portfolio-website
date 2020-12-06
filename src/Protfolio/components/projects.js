@@ -37,14 +37,14 @@ const Projects = () => {
         >
             <div className="projects_section_header d-flex">
                 <div className='project_header_child' onClick={() => setProjects(projects_store)}>All</div>
-                <div className='project_header_child' onClick={() => handleFilterCatagory('django')}>Django</div>
+                <div className='project_header_child' onClick={() => handleFilterCatagory('node.js')}>Node js</div>
                 <div className='project_header_child' onClick={() => handleFilterCatagory('react.js')} >React js</div>
-                <div className='project_header_child' onClick={() => handleFilterCatagory('processing')} >Processing</div>
+                <div className='project_header_child' onClick={() => handleFilterCatagory('firebase')} >Firebase</div>
                 <div className='project_header_child' onClick={() => handleFilterCatagory('vanila')} >Vanila js</div>
             </div>
             <div className="row">
                 {projects.map((project, i) =>
-                    <ProjectCard key={i} image={project.image} name={project.name} url={project.url} />
+                    <ProjectCard key={i} image={project.image} name={project.name} url={project.url} description={project.description} gitUrl={project.gitUrl} />
                 )}
             </div>
         </motion.div >
